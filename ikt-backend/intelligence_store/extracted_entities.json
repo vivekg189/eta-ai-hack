@@ -1,0 +1,157 @@
+[
+  {
+    "id": "twin-machine-guarding",
+    "name": "Machine Guarding",
+    "type": "Asset",
+    "source_documents": [
+      "OSHA-General-Industry-Master-Inspection-Checklist.pdf"
+    ],
+    "relationships": [
+      "NIOSH",
+      "OSHA"
+    ],
+    "evidence": "Machine Guarding\u00a0 \u00a0 194.",
+    "confidence_score": 0.96,
+    "last_updated": "Just now",
+    "maintenance_history": [],
+    "compliance_logs": [],
+    "health_score": null,
+    "risk_score": null,
+    "knowledge_risk": null,
+    "compliance_score": null,
+    "documents": 1,
+    "documents_count": 1,
+    "equipment_id": "",
+    "status": "Unknown",
+    "location": "System Logic"
+  },
+  {
+    "id": "twin-ppe",
+    "name": "PPE",
+    "type": "Asset",
+    "source_documents": [
+      "OSHA-General-Industry-Master-Inspection-Checklist.pdf"
+    ],
+    "relationships": [
+      "NIOSH",
+      "OSHA"
+    ],
+    "evidence": "Has the employer been trained on PPE\u00a0 procedures, i.e.",
+    "confidence_score": 0.98,
+    "last_updated": "Just now",
+    "maintenance_history": [],
+    "compliance_logs": [],
+    "health_score": null,
+    "risk_score": null,
+    "knowledge_risk": null,
+    "compliance_score": null,
+    "documents": 1,
+    "documents_count": 1,
+    "equipment_id": "",
+    "status": "Unknown",
+    "location": "System Logic"
+  },
+  {
+    "id": "twin-hazard-communication",
+    "name": "Hazard Communication",
+    "type": "Asset",
+    "source_documents": [
+      "OSHA-General-Industry-Master-Inspection-Checklist.pdf"
+    ],
+    "relationships": [
+      "NIOSH",
+      "OSHA"
+    ],
+    "evidence": "Does this program include:\u00a0 Details of the hazard communication\u00a0 program, including how to use the\u00a0 labeling system and MSDSs?",
+    "confidence_score": 0.97,
+    "last_updated": "Just now",
+    "maintenance_history": [],
+    "compliance_logs": [],
+    "health_score": null,
+    "risk_score": null,
+    "knowledge_risk": null,
+    "compliance_score": null,
+    "documents": 1,
+    "documents_count": 1,
+    "equipment_id": "",
+    "status": "Unknown",
+    "location": "System Logic"
+  },
+  {
+    "id": "twin-niosh",
+    "name": "NIOSH",
+    "type": "Organization",
+    "source_documents": [
+      "OSHA-General-Industry-Master-Inspection-Checklist.pdf"
+    ],
+    "relationships": [
+      "Hazard Communication",
+      "Machine Guarding",
+      "PPE"
+    ],
+    "evidence": "Are the respirators NIOSH\u2013approved for\u00a0 this particular application?",
+    "confidence_score": 0.9,
+    "last_updated": "Just now",
+    "maintenance_history": [],
+    "compliance_logs": [],
+    "health_score": null,
+    "risk_score": null,
+    "knowledge_risk": null,
+    "compliance_score": null,
+    "documents": 1,
+    "documents_count": 1,
+    "equipment_id": "",
+    "status": "Unknown",
+    "location": "System Logic"
+  },
+  {
+    "id": "twin-osha",
+    "name": "OSHA",
+    "type": "Organization",
+    "source_documents": [
+      "OSHA-General-Industry-Master-Inspection-Checklist.pdf"
+    ],
+    "relationships": [
+      "Hazard Communication",
+      "Machine Guarding",
+      "PPE"
+    ],
+    "evidence": "OSHA General Industry Inspection\u00a0 Checklist\u00a0 \u00a0 Conduct a thorough safety inspection using this checklist.",
+    "confidence_score": 0.91,
+    "last_updated": "Just now",
+    "maintenance_history": [],
+    "compliance_logs": [],
+    "health_score": null,
+    "risk_score": null,
+    "knowledge_risk": null,
+    "compliance_score": null,
+    "documents": 1,
+    "documents_count": 1,
+    "equipment_id": "",
+    "status": "Unknown",
+    "location": "System Logic"
+  },
+  {
+    "id": "twin-safety-inspection",
+    "name": "Safety Inspection",
+    "type": "Topic",
+    "source_documents": [
+      "OSHA-General-Industry-Master-Inspection-Checklist.pdf"
+    ],
+    "relationships": [],
+    "evidence": "OSHA General Industry Inspection\u00a0 Checklist\u00a0 \u00a0 Conduct a thorough safety inspection using this checklist.",
+    "confidence_score": 0.97,
+    "last_updated": "Just now",
+    "maintenance_history": [],
+    "compliance_logs": [],
+    "health_score": null,
+    "risk_score": null,
+    "knowledge_risk": null,
+    "compliance_score": null,
+    "documents": 1,
+    "documents_count": 1,
+    "equipment_id": "",
+    "status": "Unknown",
+    "location": "System Logic"
+  }
+]

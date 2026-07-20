@@ -1,0 +1,93 @@
+import {
+  fetchMetrics,
+  fetchAssets,
+  fetchKnowledgeRisks,
+  fetchFailurePatterns,
+  fetchCompliance,
+  fetchActivityFeed,
+  fetchRecommendations,
+  fetchAssetTwins,
+  fetchKnowledgeGraph,
+  fetchKnowledgeRiskStatus,
+  fetchComplianceStatus,
+  fetchIncidentsTimeline,
+  fetchDocuments,
+  queryCopilot,
+  uploadDocument,
+  fetchDocumentById,
+  deleteDocument,
+  fetchFailureGenome,
+  fetchIntelligenceFindings,
+  type DocumentData,
+  type DashboardMetrics,
+  type AssetData,
+  type KnowledgeRisk,
+  type FailurePattern,
+  type ComplianceData,
+  type ActivityEvent,
+  type Recommendation,
+  type AssetTwin,
+  type GraphData,
+  type KnowledgeRiskData,
+  type ComplianceStatusData,
+  type ComplianceFinding,
+  type IncidentTimeData,
+  type CopilotResponse,
+  type FailureGenomePattern,
+  type DocumentProcessingStep,
+  type ExpertDependency,
+  type IntelligenceFindings,
+} from "./api";
+
+export {
+  fetchMetrics,
+  fetchAssets,
+  fetchKnowledgeRisks,
+  fetchFailurePatterns,
+  fetchCompliance,
+  fetchActivityFeed,
+  fetchRecommendations,
+  fetchAssetTwins,
+  fetchKnowledgeGraph,
+  fetchKnowledgeRiskStatus,
+  fetchComplianceStatus,
+  fetchIncidentsTimeline,
+  fetchDocuments,
+  queryCopilot,
+  uploadDocument,
+  fetchDocumentById,
+  deleteDocument,
+  fetchFailureGenome,
+  fetchIntelligenceFindings,
+};
+
+export type {
+  DocumentData,
+  DashboardMetrics,
+  AssetData,
+  KnowledgeRisk,
+  FailurePattern,
+  ComplianceData,
+  ActivityEvent,
+  Recommendation,
+  AssetTwin,
+  GraphData,
+  KnowledgeRiskData,
+  ComplianceStatusData,
+  ComplianceFinding,
+  IncidentTimeData,
+  CopilotResponse,
+  FailureGenomePattern,
+  DocumentProcessingStep,
+  ExpertDependency,
+  IntelligenceFindings,
+};
+
+export async function hasDocumentIntelligence(): Promise<boolean> {
+  try {
+    const docs = await fetchDocuments();
+    return docs.length > 0;
+  } catch {
+    return false;
+  }
+}

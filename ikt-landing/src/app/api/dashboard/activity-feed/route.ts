@@ -1,0 +1,6 @@
+import { proxyGet } from "../../proxy";
+
+export async function GET() {
+  return proxyGet("/api/dashboard/activity-feed", []);
+}
+

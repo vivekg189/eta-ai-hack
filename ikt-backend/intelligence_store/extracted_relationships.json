@@ -1,0 +1,44 @@
+[
+  {
+    "id": "rel-niosh-hazard-communication",
+    "source": "NIOSH",
+    "target": "Hazard Communication",
+    "type": "Related",
+    "document": "OSHA-General-Industry-Master-Inspection-Checklist.pdf"
+  },
+  {
+    "id": "rel-osha-hazard-communication",
+    "source": "OSHA",
+    "target": "Hazard Communication",
+    "type": "Related",
+    "document": "OSHA-General-Industry-Master-Inspection-Checklist.pdf"
+  },
+  {
+    "id": "rel-osha-ppe",
+    "source": "OSHA",
+    "target": "PPE",
+    "type": "Related",
+    "document": "OSHA-General-Industry-Master-Inspection-Checklist.pdf"
+  },
+  {
+    "id": "rel-niosh-machine-guarding",
+    "source": "NIOSH",
+    "target": "Machine Guarding",
+    "type": "Related",
+    "document": "OSHA-General-Industry-Master-Inspection-Checklist.pdf"
+  },
+  {
+    "id": "rel-osha-machine-guarding",
+    "source": "OSHA",
+    "target": "Machine Guarding",
+    "type": "Related",
+    "document": "OSHA-General-Industry-Master-Inspection-Checklist.pdf"
+  },
+  {
+    "id": "rel-niosh-ppe",
+    "source": "NIOSH",
+    "target": "PPE",
+    "type": "Related",
+    "document": "OSHA-General-Industry-Master-Inspection-Checklist.pdf"
+  }
+]
